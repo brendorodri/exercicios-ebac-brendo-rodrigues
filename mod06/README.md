@@ -1,6 +1,6 @@
 # hora-de-acordar
 
-1. Abro o olho
+1. Abro os olhos
 2. Levanto da cama
 3. Faço um breve alongamento
 4. Caminho até o banheiro
