@@ -35,4 +35,8 @@ public class Cliente {
     public void cadastrarEndereco(String endereco) {
         setEndereco(endereco);
     }
+
+    public void cadastrarNomeCliente(String nome) {
+        setNome(nome);
+    }
 }

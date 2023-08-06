@@ -4,10 +4,13 @@ public class PrimeiraClasse {
 
     public static void main (String[] args) {
         Cliente cliente = new Cliente();
-        cliente.setCodigo(1);
-        cliente.cadastrarEndereco("Asa Norte Rua 02");
 
-        System.out.println("Endereço: " + cliente.getEndereco());
-        System.out.println("Código do cliente: " + cliente.getCodigo());
+        cliente.cadastrarNomeCliente("Brendo Rodrigues");
+        cliente.setCodigo(1);
+        cliente.cadastrarEndereco("Vila Sao Jose");
+
+        System.out.println("Codigo do Cliente: " + cliente.getCodigo());
+        System.out.println("Nome do Cliente: " + cliente.getNome());
+        System.out.println("Endereco: " + cliente.getEndereco());
     }
 }
