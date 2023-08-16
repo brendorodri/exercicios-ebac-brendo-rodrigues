@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/exercicios-ebac-brendo-rodrigues.iml" filepath="$PROJECT_DIR$/.idea/exercicios-ebac-brendo-rodrigues.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod05/mod05.iml" filepath="$PROJECT_DIR$/mod05/mod05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod07/mod07.iml" filepath="$PROJECT_DIR$/mod07/mod07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tarefa-calculo-media/tarefa-calculo-media.iml" filepath="$PROJECT_DIR$/tarefa-calculo-media/tarefa-calculo-media.iml" />
+    </modules>
+  </component>
+</project>
