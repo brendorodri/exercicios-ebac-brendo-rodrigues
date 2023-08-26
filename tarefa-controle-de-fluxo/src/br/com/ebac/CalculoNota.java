@@ -6,12 +6,26 @@ public class CalculoNota {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 
-        System.out.println("Digite sua nota: ");
-        Double nota = s.nextDouble();
+        Nota portugues = new Nota();
+        Nota matematica = new Nota();
+        Nota geografia = new Nota();
+        Nota historia = new Nota();
 
-        String resultado = getNota(nota);
+        System.out.println("Digite sua nota portugues: ");
+        portugues.inserirMinhaNota(s.nextDouble());
 
-        System.out.println("Resultado: " + resultado);
+        System.out.println("Digite sua nota matematica: ");
+        matematica.inserirMinhaNota(s.nextDouble());
+
+        System.out.println("Digite sua nota historia: ");
+        historia.inserirMinhaNota(s.nextDouble());
+
+        System.out.println("Digite sua nota geografia: ");
+        geografia.inserirMinhaNota(s.nextDouble());
+
+        Double resultado = (matematica.getMinhaNota() + portugues.getMinhaNota() + historia.getMinhaNota() + geografia.getMinhaNota()) / 4;
+
+        System.out.println("Resultado: " + getNota(resultado));
     }
 
     public static String getNota(Double nota) {
