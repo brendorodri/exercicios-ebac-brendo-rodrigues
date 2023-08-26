@@ -7,24 +7,24 @@ public class CalculoNota {
 
         Scanner s = new Scanner(System.in);
 
-        Disciplina primeiraDisciplina = new Disciplina();
-        Disciplina segundaDisciplina = new Disciplina();
-        Disciplina terceiraNota = new Disciplina();
-        Disciplina quartaDisciplina = new Disciplina();
+        Nota primeiraNota = new Nota();
+        Nota segundaNota = new Nota();
+        Nota terceiraNota = new Nota();
+        Nota quartaNota = new Nota();
 
         System.out.println("Digite sua primeira nota: ");
-        primeiraDisciplina.inserirMinhaNota(s.nextDouble());
+        primeiraNota.inserirMinhaNota(s.nextDouble());
 
         System.out.println("Digite sua segunda nota: ");
-        segundaDisciplina.inserirMinhaNota(s.nextDouble());
+        segundaNota.inserirMinhaNota(s.nextDouble());
 
         System.out.println("Digite sua terceira nota : ");
         terceiraNota.inserirMinhaNota(s.nextDouble());
 
         System.out.println("Digite sua quarta nota: ");
-        quartaDisciplina.inserirMinhaNota(s.nextDouble());
+        quartaNota.inserirMinhaNota(s.nextDouble());
 
-        Double resultado = (primeiraDisciplina.getMinhaNota() + segundaDisciplina.getMinhaNota() + terceiraNota.getMinhaNota() + quartaDisciplina.getMinhaNota()) / 4;
+        Double resultado = (primeiraNota.getMinhaNota() + segundaNota.getMinhaNota() + terceiraNota.getMinhaNota() + quartaNota.getMinhaNota()) / 4;
 
         System.out.println("Sua média é: " + resultado);
         System.out.println("Resultado: " + getNota(resultado));
